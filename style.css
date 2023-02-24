@@ -7,35 +7,84 @@ body{
 }
 
 
+.bubble-1{
+    display: none;
+    height: 100vh;
+    width:100%;
+}
 
-@media (max-width: 37.5em) {
-    body {
-        background-image: url(./images/original.jpg);
+.bubble-2{
+    display: none;
+    height: 100vh;
+    width:100%;
+}
+
+.bubble-3{
+    display: none;
+    height: 100vh;
+    width:100%;
+}
+
+.bubble-4{
+    display: none;
+    height: 100vh;
+    width:100%;
+}
+
+.bubble-5{
+    display: none;
+    height: 100vh;
+    width:100%;
+}
+
+.bubble-6{
+    display: none;
+    height: 100vh;
+    width:100%;
+}
+
+@media screen and (min-width: 1440px) {
+    .bubble-6 {
+        display: block;
     }
 }
 
-@media (min-width: 37.5em) and (max-width: 48em) {
-    body {
-        background-image: url(./images/bigger.jpg);
+@media screen and (min-width: 1200px) {
+    .bubble-5 {
+        display: block;
     }
 }
 
-@media (min-width: 48em) and (max-width: 62em) {
-	    body {
-            background-image: url(./images/bubble.jpg);
-        }
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .bubble-4 {
+        display: block;
+    }
 }
 
-@media (min-width: 62em) and (max-width: 72em) {
-    body {
-	    background-image: url(./images/pp.jpg);
-   }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .bubble-3 {
+        display: block;
+    }
 }
 
-@media (min-width: 72em) {
-    body {
-	    background-image: url(./images/pop.jpg);
-   }
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .bubble-2 {
+        display: block;
+    }
 }
+
+@media screen and (max-width: 600px) {
+    .bubble-1 {
+        display: block;
+    }
+}
+
+
+
+
+
+
 
 
