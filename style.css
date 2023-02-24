@@ -21,20 +21,20 @@ body{
 }
 
 @media (min-width: 48em) and (max-width: 62em) {
-    body {
-	    background-image: url(./images/ipad.jpg);
-   }
+	    body {
+            background-image: url(./images/bubble.jpg);
+        }
 }
 
 @media (min-width: 62em) and (max-width: 72em) {
     body {
-	    background-image: url(./images/biggger2.jpg);
+	    background-image: url(./images/bigbubble.jpg);
    }
 }
 
 @media (min-width: 72em) {
     body {
-	    background-image: url(./images/big.jpg);
+	    background-image: url(./images/pop.jpg);
    }
 }
 
